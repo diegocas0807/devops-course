@@ -11,17 +11,17 @@ En este punto me gustaría implementar herramientas que hagan la orquestación d
 
 ## 2. Las prácticas y herramientas DevOps evolucionan año tras año. ¿Podrías indicar cuáles son las tendencias de estos últimos años, así como su objetivo/beneficio?
 
-Una tendencia en cuanto a cómo implementar DevOps, es utilizar Gitlab Ci, hacer un pipeline basado en YAML, y utilizar un agente para la ejecución de dicho pipeline; el agente que se utilice se puede ejecutar en cloud o en infrastructura propia, es decir, que pueden usar shell o docker, shell quiere decir que lo que se ejecute en el agente deberá estar instalado en el agente, y docker indica que solo debe instalarse docker y el agente correrá sobre docker. El beneficio de esta tendencia es la automatización de operaciones mediante el uso de diferentes herramientas. 
+Una tendencia en cuanto a cómo implementar DevOps, es utilizar Gitlab Ci, hacer un pipeline basado en YAML, y utilizar un agente para la ejecución de dicho pipeline; el agente que se utilice se puede ejecutar en cloud o en infrastructura propia, es decir, que pueden usar shell o docker, shell quiere decir que lo que se ejecute en el agente deberá estar instalado en el agente, y docker indica que solo debe instalarse docker y el agente correrá sobre este. El beneficio de esta tendencia es la automatización de operaciones mediante el uso de diferentes herramientas. 
 
-Por otro lado tenemos el enfoque modular, que se refiere a la utilización de equipos pequeños y ágiles para gestionar aplicaciones individuales. 
+Por otro lado, tenemos el enfoque modular, que se refiere a la utilización de equipos pequeños y ágiles para gestionar aplicaciones individuales. 
 
 >Consejo: la clave del éxito de DevOps está en separar las actividades en distintas partes. Para cualquier nuevo producto que lance una organización, los equipos de DevOps deberían hacer una aproximación teniendo un enfoque modular y tener un plan claro de cómo romper con los productos monolíticos.
 
-La infraestructura programable es una tendencia que se viene aplicando desde 2016 qie implica programar la infraestrctura de manera que los propios desarrolladores puedan desarrollar y programar su entorno de forma simultánea 
+La infraestructura programable es otra tendencia que se viene aplicando desde 2016 qie implica programar la infraestrctura de manera que los propios desarrolladores puedan desarrollar y programar su entorno de forma simultánea 
 
-Una de las tendencias más reconocidas es la reducción del tiempo de despliegue, que se da a partir del uso de metodologías ágiles a la hora de trabajar. Con esto también se busca hacer sistemas más tolerantes a riesgos con el fin de que los cambios realizados tengan impactos menos negativos en el sistema y el tiempo de producción se vea considerablemente reducido.
+Otra de las tendencias más reconocidas es la reducción del tiempo de despliegue, que se da a partir del uso de metodologías ágiles a la hora de trabajar. Con esto también se busca hacer sistemas más tolerantes a riesgos con el fin de que los cambios realizados tengan impactos menos negativos en el sistema y el tiempo de producción se vea considerablemente reducido.
 
-En cuanto al papel de Operaciones, Devops busca constantemente la eliminación del mismo, buscando tener sistemas heredados más fuertes y llegando a la disminución de operación o su eliminación por completo.
+Y finalmente, en cuanto al papel de operaciones, Devops busca constantemente la eliminación del mismo, buscando tener sistemas heredados más fuertes y llegando a la disminución de operación o su eliminación por completo.
 
 *FUENTE*
 [Global Partner](https://globbpartner.com/cinco-tendencias-devops-3232/)
@@ -30,12 +30,12 @@ En cuanto al papel de Operaciones, Devops busca constantemente la eliminación d
 
 ### SysOps
 
-Sysops se enfoca en ITIL, normalmente tiende a favorecer una tasa de cambio de código y un despliegue coherente. Se basa en proporcionar un desarrollo continúo de servicios sin riesgos y no ser tan flexible al cambio. Se interesa en hacer que los procesos del sistema funcionen sin problemas en toda la empresa.
+Sysops se enfoca en ITIL, el cual normalmente tiende a favorecer una tasa de cambio de código y un despliegue coherente. Se basa en proporcionar un desarrollo continúo de servicios sin riesgos y no ser tan flexible al cambio; este se interesa en hacer que los procesos del sistema funcionen sin problemas en toda la empresa.
 
 *FUENTE*
 [Intellipaat](https://intellipaat.com/blog/sysops-vs-devops-whats-difference/)
 
-Es el término antiguo utilizado para referirse a la persona que administra un "sistema informático". La gente de SysOps se encuentra cada vez más familiarizada con el sistema operativo y las aplicaciones que se ejecutan en el propio sistema, ya sea Windows o Unix.
+SysOps es el término antiguo utilizado para referirse a la persona que administra un "sistema informático".
 
 *FUENTE*
 [Quora](https://www.quora.com/What-is-difference-between-DevOps-SysOps-and-WebOps)
@@ -49,7 +49,7 @@ BIZ: Necesidades de negocio.
 
 DEV: Entrada de los cambios, desarrollo. 
 
-OPS: Entrada de incidencias y problemas. R
+OPS: Entrada de incidencias y problemas.
 
 *FUENTE*
 [VASS](https://www.vass.es/tecnologia/bizdevops/)
